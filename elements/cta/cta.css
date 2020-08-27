@@ -1,0 +1,24 @@
+/* cta */
+
+section.cta div.container div.row div a div i {
+  font-size: 2em;
+  margin-bottom: 20px;
+  background: #E43134;
+  color: white;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+
+
+}
+
+section.cta div.container div.row div a div:hover {
+  transition: 0.5s;
+}
+
+section.cta div.container div.row div a div:hover {
+  transform: scale(1.1);
+}
+
+/* end of cta */

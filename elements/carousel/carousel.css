@@ -1,0 +1,11 @@
+div.carousel div img{
+   margin: 0 auto;
+   max-width: 200px;
+}
+
+div.carousel {
+  max-width: 90%;
+}
+div.carousel div {
+  padding: 20px;
+}

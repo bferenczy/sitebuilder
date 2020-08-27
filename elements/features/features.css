@@ -1,0 +1,112 @@
+/* features */
+
+div.feature {
+  display: flex;
+  padding: 10px;
+  width: 48%;
+}
+
+p.text-icon {
+  font-size: 20px;
+  font-weight: 600;
+  color: #E43134;
+  min-width: 70px;
+  text-align: center;
+  line-height: 26px;
+  padding: 5px 10px 10px 10px;
+}
+
+
+div.feature i {
+  font-size: 2em;
+  color: #E43134;
+  margin: 0;
+  padding: 5px 10px 10px 10px;
+  min-width: 70px;
+  text-align: center;
+}
+
+div.feature-text > h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+div.feature-text > p {
+  font-size: 14px;
+  color: #333;
+}
+
+div.feature-highlight {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+div.feature-highlight div.feature {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+div.feature-highlight div.feature div.feature-text p {
+  font-size: 16px;
+  max-width: 600px;
+}
+
+div.feature-highlight div.feature div.feature-text h5 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+div.feature-text small {
+  font-size: 16px;
+  color: rgba(0,0,0,0.5);
+  text-transform: uppercase;
+}
+
+div.feature-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+div.accessory-features div.feature-holder div.feature {
+  width: 33%;
+}
+
+@media screen and (max-width: 576px) {
+  div.feature, div.accessory-features div.feature-holder div.feature  {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  div.feature-holder {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+ div.accessory-features div.feature-holder div.feature  {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  div.accessory-features div.feature-holder {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+/* end of features */

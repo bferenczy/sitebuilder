@@ -1,0 +1,27 @@
+/* hero with bg */
+
+section.hero-with-bg-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section.hero-with-bg-img div.container * {
+  color: #fff;
+  text-align: center;
+}
+
+section.hero-with-bg-img div.container h1 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3.3em;
+}
+
+section.hero-with-bg-img div.container p {
+  font-size: 1.3em;
+}
+ /* end of hero with bg */

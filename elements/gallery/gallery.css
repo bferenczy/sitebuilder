@@ -1,0 +1,50 @@
+/* Gallery */
+.thumb{
+        max-height: 300px;
+          overflow: hidden;
+           margin-bottom: 30px;
+           display: flex;
+       }
+
+       .page-top{
+           margin-top:85px;
+       }
+
+       .thumb a {
+         text-align: center;
+       }
+
+
+img.zoom {
+   height: 100%;
+  width: 90%;
+   border-radius:0px;
+   object-fit:cover;
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   -ms-transition: all .3s ease-in-out;
+}
+
+.fancybox-container * {
+  color: #fff;
+}
+
+
+.transition {
+   -webkit-transform: scale(1.05);
+   -moz-transform: scale(1.05);
+   -o-transform: scale(1.05);
+   transform: scale(1.05);
+}
+   .modal-header {
+
+    border-bottom: none;
+}
+   .modal-title {
+       color:#000;
+   }
+   .modal-footer{
+     display:none;
+   }
+/* end of gallery */
